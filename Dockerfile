@@ -7,4 +7,4 @@ RUN bundle install
 
 COPY . .
 
-CMD ["./run_test.sh"]
+ENTRYPOINT ["/usr/src/sinatrapp/run_test.sh"]
