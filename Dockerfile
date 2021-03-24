@@ -7,4 +7,4 @@ RUN bundle install
 
 COPY . .
 
-#CMD ["./run_test.sh"]
+CMD ["./run_test.sh"]
