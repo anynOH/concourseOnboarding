@@ -18,5 +18,9 @@ class Application < Sinatra::Base
             "Welcome #{@user}!"
         end
     end
+
+    get '/new-endpoint' do
+        "Hello There - General Kenobi"
+    end
 end
   
