@@ -2,4 +2,4 @@
 
 #cd ./test
 
-rspec -I . app_test.rb
+rspec -I . /usr/src/sinatrapp/test/app_test.rb
