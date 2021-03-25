@@ -1,5 +1,5 @@
 #!/bin/bash
 
-cd ./test
+#cd ./test
 
 rspec -I . app_test.rb
